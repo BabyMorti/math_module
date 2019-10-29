@@ -46,8 +46,8 @@ math_module.is_nan(number)
 math_module.isfinite(number)
 
 ## **There is some constants**
-pi = 3.141592   
-tau = 6.283185  
-e = 2.718281   
-inf = infinity
-nan = NaN
+####pi = 3.141592
+####tau = 6.283185  
+####e = 2.718281   
+####inf = infinity
+####nan = NaN
