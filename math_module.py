@@ -4,6 +4,11 @@ e = 2.718281   #e number
 inf = float('inf')   #infinity
 nan = float('NaN')   #NaN
 
+def description():   #description function
+    '''Return description of this module'''
+    version = '0.0.1'
+    return '''This is a math module made by Gregor Zhilich.
+    Version 0.0.1, Python 3.8.0'''
 def gcd(a,b):   #gcd function
 	'''Return the greatest common divisor of a and b'''
 	if a == 0:
