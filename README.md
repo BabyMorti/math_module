@@ -3,6 +3,9 @@ This is a math module by Gregor Zhilich
 
 ## **Using**
 
+### description of module
+math_module.description()
+
 ### gcd
 math_module.gcd(1st_number, 2nd_number)
 
