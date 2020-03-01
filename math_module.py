@@ -11,10 +11,10 @@ def description():   #description function
     Version 0.0.1, Python 3.8.0'''
 def gcd(a,b):   #gcd function
 	'''Return the greatest common divisor of a and b'''
-	if a == 0:
-	       return b
-	res = gcd(b % a, a)
-	return res
+	if b==0:
+		return a
+	else:
+		return gcd(b,a%b)
 def lcm(a,b):   #lcm function
 	'''Return the least common divisor of a and b'''
 	res = (a * b) / gcd(a, b)
