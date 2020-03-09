@@ -6,6 +6,12 @@ This is a math module by Gregor Zhilich
 ### description of module
 math_module.description()
 
+### remainder of division
+math_module(1st_number, 2nd_number)
+
+### integer division
+math_module(1st_number, 2nd_number)
+
 ### gcd
 math_module.gcd(1st_number, 2nd_number)
 

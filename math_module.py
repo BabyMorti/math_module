@@ -9,6 +9,18 @@ def description():   #description function
     version = '0.0.1'
     return '''This is a math module made by Gregor Zhilich.
     Version 0.0.1, Python 3.8.0'''
+def div(a,b):
+	'''Return integer division'''
+	score = 0
+	while a > b:
+		score += 1
+		a -= b
+	return score
+def mod(a,b):
+	'''Return remainder of division'''
+	while a > b:
+		a -= b
+	return a
 def gcd(a,b):   #gcd function
 	'''Return the greatest common divisor of a and b'''
 	if b==0:
